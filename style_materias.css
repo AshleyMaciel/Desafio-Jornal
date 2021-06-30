@@ -1,0 +1,86 @@
+body {
+	background: #000000;
+	color: white;
+}
+
+header {
+	background: url(novo-corona.jpg);
+	padding: 10px 0 20px 0;
+	border-bottom: 6px solid #FF0000;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+h1 a {
+	color: #000000;
+	text-decoration: none;
+}
+
+nav{
+	position: absolute;
+	top: 33%;
+	right: 5%;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 30px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+main {
+	width: 1000px;
+	margin: 30px auto;
+	padding: 30px 0;
+	border: 2px solid #FF0000;
+	border-radius: 20px;
+	background: white;
+	text-align: center;
+}
+
+.titulo-materia {
+	border-top: 2px dotted #FF0000;
+	padding-top: 30px;
+	padding-right: 15px;
+	padding-left: 15px;
+	color: black;
+}
+
+h2 {
+	color: #242424;
+	font-size: 22px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.texto {
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 20px;
+	color: black;
+}
+
+footer {
+	text-align: center;
+	background: url(novo-corona.jpg);
+	color: #000000;
+	border-top: 6px solid #FF0000;
+	padding: 15px;
+	font-size: 13px;
+}
